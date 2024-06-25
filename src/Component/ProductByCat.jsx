@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 
 function ProductByCat(props) {
   let pp = ProductData.filter((a) => a.category === props.tt);
-  /// == replaced to === and new function added handleAdTtoCart
+  /// == replaced to === and new function added handleAdTtoCart to button
   const dispatch = useDispatch();
 
   function handleAddToCart(item) {
